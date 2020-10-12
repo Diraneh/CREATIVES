@@ -1,0 +1,25 @@
+@font-face{
+    font-family: "Gotham";
+    src:url(/police/Gotham-Font/GothamBold.ttf)
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width:1200px ;
+    width: 100%;
+    margin:auto
+}
+
+
+.bh2{
+    font-family: "Gotham";
+    color: red;
+    position: relative;
+    opacity: 100%;
+    font-size: 200px;
+    left: 50%;
+    top: 10%;
+}
