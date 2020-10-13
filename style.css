@@ -1,6 +1,11 @@
 @font-face{
     font-family: "Gotham";
-    src:url(/police/Gotham-Font/GothamBold.ttf)
+    src:url(/police/Gotham-Font/GothamBook.ttf)
+}
+
+@font-face{
+    font-family: "GothamBold";
+    src:url(police/Gotham-Font/GothamBold.ttf)
 }
 body{
     margin: 0;
@@ -8,18 +13,162 @@ body{
 }
 
 .container{
-    max-width:1200px ;
+    max-width:1200px;
     width: 100%;
-    margin:auto
+    margin:auto;
 }
 
+/*B*/
+
+.bh2:before{   
+    content: "B";
+    font-family: "GothamBold";
+    color: rgb(219, 95, 118);
+    opacity: 90%;
+    font-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+
+}
 
 .bh2{
+    margin-top: 70px;
     font-family: "Gotham";
-    color: red;
-    position: relative;
-    opacity: 100%;
-    font-size: 200px;
-    left: 50%;
-    top: 10%;
+    opacity: 70%;
+    font-size: 30px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
 }
+
+
+.blog{
+    font-family: "Gotham";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    
+}
+
+/*Love*/
+
+.love{
+    font-family: "Gotham";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.columngia {
+    float: left;
+    width: 25%;
+  }
+
+  .columngia p {
+      font-family: "Gotham";
+    float: left;
+    width: 90%;
+    word-break: break-word;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+  }
+
+  .columngia2 {
+    float: left;
+    width: 25%;
+  }
+
+  .columngia2 p {
+    font-family: "Gotham";
+    float: left;
+    width: 50%;
+    word-break: break-word;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+  }
+ 
+  .blogt{
+      color: rgb(213, 51, 83);
+      font-family: "Gotham";
+      font-size: 14px;
+      text-align: center;
+      text-transform: uppercase;
+  }
+
+  
+
+  @media(max-width:767px){
+
+    .love{
+        text-align: center;
+    }
+
+    .columngia {
+        float: left;
+        width: 100%;
+        text-align: center;
+      }
+    
+      .columngia p {
+          font-family: "Gotham";
+        width: 100%;
+        text-align: left;
+        margin-left: 7px;
+      }
+
+      .columngia img{
+          width: 70%;
+      }
+  }
+
+@media(min-width:768px){
+    .columngia {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+
+  .columngia p {
+      font-family: "Gotham";
+    width: 90%;
+    text-align: left;
+    margin-left: 7px;
+  }
+
+  .columngia img{
+      width: 98%;
+  }
+
+}
+
+@media(min-width:992px){
+
+    .columngia {
+        float: left;
+        width: 25%;
+      }
+    
+      .columngia p {
+        float: left;
+        width: 90%;
+        word-break: break-word;
+        text-align: center;
+        display: flex;
+      }
+
+}
+
+@media(min-width:1200px){}
