@@ -1,7 +1,25 @@
-@font-face{
-    font-family: "Gotham";
-    src:url(/police/Gotham-Font/GothamBold.ttf)
+@font-face {
+    font-family: 'gothammedium';
+    src: url('/police/gothammedium-webfont.woff2') format('woff2'),
+         url('/police/gothammedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+/* @font-face{
+    font-family: "gothammedium";
+    src: url(/police/Gotham-Font/GothamMedium.ttf);
+}
+
+@font-face{
+    font-family: "GothamBold";
+    src: url(/police/Gotham-Font/GothamBold.ttf);
+}
+@font-face{
+    font-family: "GothamMed";
+    src: url(/police/Gotham-Font/GothamMedium.ttf);
+} */
+
 body{
     margin: 0;
     padding: 0;
@@ -10,6 +28,107 @@ body{
 .container{
     max-width:1200px ;
     width: 100%;
-    margin:auto
+    margin:auto;
 }
 
+.red{
+    background-color:#db5971;
+    padding-top: 30px;
+}
+
+.titre{
+    position:relative;
+}
+
+.h2w{
+    color: white;
+    font-family: "Gotham";
+    font-size: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 40%;
+    z-index: 1;
+    margin:0;
+   
+}
+
+.textered{
+     font-family: 'gothammedium';
+     font-size: 25px;
+    color: white;
+    left:50%;
+    transform: translate(-50%);
+    position: absolute;
+    z-index: 1;
+    top:40%;
+    text-transform: uppercase;
+}
+
+.blockred{
+    font-size: 'gothambook';
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.titrered{
+    font-family: "gothammedium";
+}
+
+.textered1{
+    font-family: "GothamBook";
+    padding-bottom: 60px;
+    padding-left : 15px;
+    padding-right : 15px;
+}
+
+.imgred{
+    padding-bottom: 25px;
+}
+
+.imgred1{
+    margin-top: 0;
+}
+.imgred2{
+    margin-bottom: 25px;
+}
+
+.colred h3{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.colred p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width:767px){
+    .blockred{
+        flex-direction: column;
+        width: 100%;
+    }
+    .textered{
+        font-size: 18px;
+        text-align: center;
+}
+}
+
+@media screen and (min-width:768px){
+    .textered{
+        font-size: 24px;
+}
+
+@media screen and (min-width:992px){
+
+}
+@media screen and (min-width:1200px){
+
+}
