@@ -18,6 +18,16 @@ body{
     margin:auto;
 }
 
+footer{
+  font-family: "Gotham";
+  color: white;
+  font-size: 10px;
+  width: 100%;
+  float: left;
+  background-color: black;
+}
+
+
 /*B*/
 
 .bh2:before{   
@@ -108,7 +118,53 @@ body{
       text-transform: uppercase;
   }
 
-  
+  .blouge{
+    margin-top: 100px;
+    background-color: rgb(210, 18, 66);
+    float: left;
+max-width: 1600px;
+width: 100%;
+text-align: center;
+justify-content: center;}
+
+.blouge p{
+  color: white;
+  font-size: 15px;
+}
+
+.triche{
+  float: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.img2{
+  margin-top: 20px;
+  float: inline-start;
+}
+
+.col2{
+  font-family: "Gotham";
+  margin: 0 ;
+  float: right;
+  margin-top: 10px;
+}
+
+.paragraphfoot1{
+  display: flex;
+  float: left;
+  width: 80%;
+}
+
+.paragraphfoot2{
+  display: flex;
+  width: 20%;
+}
+
+.foot{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
   @media(max-width:767px){
 
@@ -132,6 +188,22 @@ body{
       .columngia img{
           width: 70%;
       }
+
+      .triche{
+        width: 100%;
+      }
+
+      .img2{
+        width: 10%;
+
+      }
+
+      .col2{
+        width: 100%;
+        display: flex;
+        text-align: center;
+
+      }
   }
 
 @media(min-width:768px){
@@ -152,6 +224,22 @@ body{
       width: 98%;
   }
 
+  .triche{
+    width: 100%;
+  }
+
+  .img2{
+    width: 10%;
+
+  }
+
+  .col2{
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+  }
+
 }
 
 @media(min-width:992px){
@@ -169,6 +257,27 @@ body{
         display: flex;
       }
 
+      .triche{
+        width: 50%;
+      }
+      
+      .img2{
+        width: 8%;
+  
+      }
+      
+      .col2{
+        width: 85%;
+        display: flex;
+  text-align: left;
+  word-break: break-all;
+      }
+
 }
 
-@media(min-width:1200px){}
+@media(min-width:1200px){
+
+  .blouge{
+    max-width: 1900px;
+  }
+}
