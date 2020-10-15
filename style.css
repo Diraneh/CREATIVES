@@ -145,3 +145,236 @@ body{
     margin-right: 100px;
     }
 }
+
+/*LE CSS DE GIANNI*/
+
+@font-face{
+  font-family: "Gotham";
+  src:url(/police/Gotham-Font/GothamBook.ttf)
+}
+
+@font-face {
+  font-family: 'Gothambold';
+  src: url('./ProjetHTMLCSS/police/gothambold-webfont.woff2') format('woff2'),
+       url('./ProjetHTMLCSS/police/gothambold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face{
+font-family: "Roboto";
+src: url(/police/Roboto-Thin.ttf);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100%;
+  margin:auto;
+}
+
+/* before */
+
+.bh2:before{   
+  content: "B";
+  font-family: "GothamBold";
+  color: rgb(219, 95, 118);
+  opacity: 90%;
+  font-size: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: -1;
+
+}
+
+.bh2{
+  margin-top: 100px;
+  font-family: "Gotham";
+  opacity: 70%;
+  font-size: 30px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.love{
+    margin-top: 50px;
+    font-family: "Gotham";
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fresh{
+    margin-top: 50px;
+    max-width: 1200px;
+}
+
+/*Colomn*/
+
+
+
+.blogt{
+    font-size: 15px;
+    font-family: "Gotham";
+    color: rgb(210, 18, 66);
+}
+
+.columngia p{
+    font-family: "Gotham";
+    font-size: 15px;
+    word-break: break-word;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+}
+
+.rowg{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.columngia{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin:auto;
+}
+
+/* pinky */
+
+.pinky{
+  margin-top: 80px;
+  background-color: rgb(210, 18, 66);
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.columngia2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.columngiaim{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+}
+
+.lorem{
+  font-family: "Gotham";
+  color: white;
+  font-size: 13px;
+  line-height: 1.3rem;
+}
+
+/*foot*/
+
+footer{
+padding-bottom: 60px;
+padding-top: 70px;
+font-size: 10px;
+font-family: "Roboto";
+background-color: black;
+color: white;
+}
+
+
+
+.rowg2{
+display: flex;
+justify-content: space-between;
+}
+
+
+@media(max-width:652px){
+  .columngia{
+    width: 100%;
+  }
+
+.columngiaim{
+  width: 100%;
+  margin-top:20px;
+}
+
+.columngia2{
+  width: 100%;
+  text-align: center;
+}
+
+.paragraphfoot1{
+  margin-left:20px;
+}
+
+.paragraphfoot2{
+  margin-right: 20px;
+}
+
+}
+
+@media(min-width:653px){
+.columngia{
+  width: 49%;
+}
+
+
+.columngiaim{
+  margin-top:20px;
+}
+
+.paragraphfoot1{
+  margin-left:80px;
+}
+
+.paragraphfoot2{
+  margin-right: 80px;
+}
+
+}
+
+@media(min-width:992px){
+.columngia{
+  width: 24%;
+}
+
+.columngiaim{
+  width: 5%;
+  margin-left:20px
+}
+
+.columngia2{
+  width: 30%;
+}
+
+.paragraphfoot1{
+  margin-left:150px;
+}
+
+.paragraphfoot2{
+  margin-right: 150px;
+}
+
+
+}
+
+@media(min-width:1200px){
+
+}
