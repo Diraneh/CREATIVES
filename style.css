@@ -23,7 +23,6 @@ body{
 }
 
 .container{
-    max-width:1200px;
     width: 100%;
     margin:auto;
 }
@@ -57,7 +56,7 @@ body{
     transform: translate(-50%);
     position: absolute;
     z-index: 1;
-    top:35%;
+    top:30%;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
@@ -72,7 +71,9 @@ body{
     align-items: center;
 }
 
-
+.colred{
+    width: 24%;
+}
 
 .titrered{
     font-family: 'gothammedium';
@@ -111,27 +112,36 @@ body{
         .colred{
             width: 100% !important;
         }
-}
+        .textered{
+            top: 38%;
+        }
 }
 
-@media screen and (min-width:768px){
+@media (min-width:768px){
     .textered{
         font-size: 24px;
 }
 }
 
-@media screen and (max-width:360px){
+@media (max-width:360px){
     .textered{
         font-size: 16px;
         width: 100%;
 }
 
 }
-@media screen and (max-width:1024px){
+@media (max-width:1024px){
     .blockred{
         flex-wrap: wrap;
     }
     .colred{
         width: 50%;
+    }
+}
+
+@media  (min-width:1200px){
+    .blockred{
+    margin-left: 100px;
+    margin-right: 100px;
     }
 }
