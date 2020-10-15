@@ -1,41 +1,32 @@
 @font-face{
     font-family: "Gotham";
     src:url(/police/Gotham-Font/GothamBook.ttf)
-}
-
-@font-face{
+  }
+  
+  @font-face{
     font-family: "GothamBold";
     src:url(police/Gotham-Font/GothamBold.ttf)
-}
-
-@font-face{
+  }
+  
+  @font-face{
   font-family: "Roboto";
   src: url(/police/Roboto-Thin.ttf);
-}
-body{
+  }
+
+  body{
     margin: 0;
     padding: 0;
-}
-
-.container{
-    max-width:1200px;
+  }
+  
+  .container{
+    max-width: 1200px;
     width: 100%;
     margin:auto;
-}
+  }
 
-footer{
-  font-family: "Roboto";
-  color: white;
-  font-size: 10px;
-  width: 100%;
-  float: left;
-  background-color: black;
-}
+  /* before */
 
-
-/*B*/
-
-.bh2:before{   
+  .bh2:before{   
     content: "B";
     font-family: "GothamBold";
     color: rgb(219, 95, 118);
@@ -46,11 +37,11 @@ footer{
     justify-content: center;
     position: absolute;
     z-index: -1;
-
-}
-
-.bh2{
-    margin-top: 70px;
+  
+  }
+  
+  .bh2{
+    margin-top: 100px;
     font-family: "Gotham";
     opacity: 70%;
     font-size: 30px;
@@ -59,230 +50,144 @@ footer{
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-}
-
-
-.blog{
-    font-family: "Gotham";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    
-}
-
-/*Love*/
-
-.love{
-    font-family: "Gotham";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-
-.columngia {
-    float: left;
-    width: 25%;
   }
 
-  .columngia p {
+  .love{
+      margin-top: 50px;
       font-family: "Gotham";
-    float: left;
-    width: 90%;
-    word-break: break-word;
-    text-align: center;
-    display: flex;
-    font-size: 15px;
-  }
-
-  .columngia2 {
-    float: left;
-    width: 25%;
-  }
-
-  .columngia2 p {
-    font-family: "Gotham";
-    float: left;
-    width: 50%;
-    word-break: break-word;
-    text-align: center;
-    display: flex;
-    font-size: 15px;
-  }
- 
-  .blogt{
-      color: rgb(213, 51, 83);
-      font-family: "Gotham";
-      font-size: 14px;
-      text-align: center;
+      font-weight: bold;
       text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
   }
 
-  .blouge{
-    margin-top: 100px;
+  .fresh{
+      margin-top: 50px;
+  }
+
+  /*Colomn*/
+
+ 
+
+  .blogt{
+      font-size: 15px;
+      font-family: "Gotham";
+      color: rgb(210, 18, 66);
+  }
+
+  .columngia p{
+      font-family: "Gotham";
+      font-size: 15px;
+      word-break: break-word;
+      text-align: center;
+      display: flex;
+      font-size: 15px;
+  }
+
+  .rowg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+ .columngia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:auto;
+  }
+
+  /* pinky */
+
+  .pinky{
+    margin-top: 80px;
     background-color: rgb(210, 18, 66);
-    float: left;
-max-width: 1600px;
-width: 100%;
-text-align: center;
-justify-content: center;}
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
 
-.blouge p{
+  .columngia2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .columngiaim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+  }
+
+  .lorem{
+    font-family: "Gotham";
+    color: white;
+    font-size: 13px;
+    line-height: 1.3rem;
+  }
+
+  /*foot*/
+
+footer{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 10px;
+  font-family: "Roboto";
+  background-color: black;
   color: white;
-  font-size: 15px;
 }
 
-.triche{
-  float: left;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.img2{
-  margin-top: 20px;
-  float: inline-start;
-}
-
-.col2{
-  font-family: "Gotham";
-  margin: 0 ;
-  float: right;
-  margin-top: 10px;
-}
-
-.paragraphfoot1{
+.rowg2{
   display: flex;
-  float: left;
-  width: 80%;
+  justify-content: space-between;
 }
 
-.paragraphfoot2{
-  display: flex;
-  width: 15%;
-}
 
-.foot{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-  @media(max-width:767px){
-
-    .love{
-        text-align: center;
+  @media(max-width:652px){
+    .columngia{
+      width: 100%;
     }
 
-    .columngia {
-        float: left;
-        width: 100%;
-        text-align: center;
-      }
-    
-      .columngia p {
-          font-family: "Gotham";
-        width: 100%;
-        text-align: left;
-        margin-left: 7px;
-      }
-
-      .columngia img{
-          width: 70%;
-      }
-
-      .triche{
-        width: 100%;
-      }
-
-      .img2{
-        width: 10%;
-
-      }
-
-      .col2{
-        width: 100%;
-        display: flex;
-        text-align: center;
-
-      }
-  }
-
-@media(min-width:768px){
-    .columngia {
-    float: left;
-    width: 50%;
-    text-align: center;
-  }
-
-  .columngia p {
-      font-family: "Gotham";
-    width: 90%;
-    text-align: left;
-    margin-left: 7px;
-  }
-
-  .columngia img{
-      width: 98%;
-  }
-
-  .triche{
+  .columngiaim{
     width: 100%;
   }
 
-  .img2{
-    width: 10%;
+  .columngia2{
+    width: 100%;
+    text-align: center;
+  }
 
   }
 
-  .col2{
-    width: 100%;
-    display: flex;
-    text-align: center;
-
+@media(min-width:653px){
+  .columngia{
+    width: 49%;
   }
 
 }
 
 @media(min-width:992px){
+  .columngia{
+    width: 24%;
+  }
 
-    .columngia {
-        float: left;
-        width: 25%;
-      }
-    
-      .columngia p {
-        float: left;
-        width: 90%;
-        word-break: break-word;
-        text-align: center;
-        display: flex;
-      }
+  .columngiaim{
+    width: 5%;
+  }
 
-      .triche{
-        width: 50%;
-      }
-      
-      .img2{
-        width: 8%;
-  
-      }
-      
-      .col2{
-        width: 85%;
-        display: flex;
-  text-align: left;
-  word-break: break-all;
-      }
+  .columngia2{
+    width: 30%;
+  }
+
 
 }
 
 @media(min-width:1200px){
 
-  .blouge{
-    max-width: 1900px;
-  }
 }
