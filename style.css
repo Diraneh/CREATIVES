@@ -1,7 +1,30 @@
 @font-face {
   font-family: "Gotham";
-  src: url(/police/Gotham-Font/GothamBold.ttf)
+  src: url(/police/Gotham-Font/GothamBold.ttf);
+  font-weight: normal;
+  font-style: normal;
+
 }
+
+
+@font-face {
+  font-family: 'gothammedium';
+  src: url('./police/gothammedium-webfont.woff2') format('woff2'),
+       url('./police/gothammedium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'gothambook';
+  src: url('./police/gothambook-webfont.woff2') format('woff2'),
+       url('./police/gothambook-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 
 body {
   margin: 0;
@@ -79,21 +102,33 @@ img.mainnn{
 
 .para{
   color:rgb(248, 248, 248); 
-  margin-left: 20%; 
-  margin-top: 15% ;
-  margin-right: 2%;
+  margin-left:25%; 
+  margin-top: 1% ;
+  margin-right: 25%;
   display: flex;
+  font-family: 'gothammedium';
+
+ 
+  
+  
+  
 }
 
 
 .paraa{
   color:rgb(0, 0, 0); 
-  margin-left: 20%; 
-  margin-top: 15% ;
-  margin-right: 2%;
+  margin-left:25%; 
+  margin-top: 1% ;
+  margin-right: 25%;
   display: flex;
+  font-family: 'gothammedium';
+ 
+ 
+  
  
 }
+
+
 
 #mainp{
   width: 100%;
@@ -110,6 +145,85 @@ img.mainnn{
 .mainnn{
   display: none;
 }
+
+
+@media (max-width:320px){
+
+  .mainnz{
+    display: none;
+  }
+  #mainp{
+    width: 100%;
+    display: flex;
+
+    justify-content: first baseline;
+  }
+.fluwidth {
+ 
+  width: 100%;
+  
+  flex-direction: column-reverse;
+ 
+
+}
+
+.fluwidthhh {
+ 
+  width: 100%;
+  
+  flex-direction: column-reverse;
+  
+ 
+
+}
+
+#maielm{
+  width: 100%;
+  display: flex;
+}
+
+
+.main{
+    
+  width: 100%;
+   
+flex-direction: column-reverse;
+  
+  
+}
+
+#mainnn{
+  width: 100%;
+  display: none;
+  
+  
+}
+   
+
+
+  .para{
+    color:rgb(250, 250, 250); 
+   
+    display: flex;
+    
+
+  
+    
+  }
+  
+  
+  .paraa{
+    color:rgb(3, 3, 3); 
+    display: flex;
+  
+  
+  }
+
+ 
+}
+
+
+
 @media (max-width:360px){
 
   .mainnz{
@@ -123,7 +237,7 @@ img.mainnn{
   }
 .fluwidth {
  
-  width: 450px;
+  width: 100%;
   
   flex-direction: column-reverse;
  
@@ -132,7 +246,7 @@ img.mainnn{
 
 .fluwidthhh {
  
-  width: 450px;
+  width: 100%;
   
   flex-direction: column-reverse;
   
@@ -162,91 +276,6 @@ flex-direction: column-reverse;
   
 }
    
-
-
-  
-
-
-
-
- 
-
-  .para{
-    color:rgb(250, 250, 250); 
-   
-    display: flex;
-
-  
-    
-  }
-  
-  
-  .paraa{
-    color:rgb(3, 3, 3); 
-    display: flex;
-   align-items: center;
-  
-  }
-
- 
-}
-
-
-
-
-@media (max-width:280px){
-
-  .mainnz{
-    display: none;
-  }
-  #mainp{
-    width: 100%;
-    display: flex;
-
-    justify-content: first baseline;
-  }
-.fluwidth {
- 
-  width: 900px;
-  
-  flex-direction: column-reverse;
- 
-
-}
-
-.fluwidthhh {
- 
-  width: 1000px;
-  
-  flex-direction: column-reverse;
-  
- 
-
-}
-
-#maielm{
-  width: 100%;
-  display: flex;
-}
-
-
-.main{
-    
-  width: 100%;
-   
-flex-direction: column-reverse;
-  
-  
-}
-
-#mainnn{
-  width: 100%;
-  display: none;
-  
-  
-}
-   
-
 
   .para{
     color:rgb(250, 250, 250); 
@@ -284,7 +313,7 @@ flex-direction: column-reverse;
   }
 .fluwidth {
  
-  width: 450px;
+  width: 100%;
   
   flex-direction: column-reverse;
  
@@ -293,7 +322,7 @@ flex-direction: column-reverse;
 
 .fluwidthhh {
  
-  width: 450px;
+  width: 100%;
   
   flex-direction: column-reverse;
   
@@ -325,13 +354,6 @@ flex-direction: column-reverse;
    
 
 
-  
-
-
-
-
- 
-
   .para{
     color:rgb(250, 250, 250); 
    
@@ -350,10 +372,28 @@ flex-direction: column-reverse;
   }
 
  
+
+
+
+  .para{
+    color:rgb(250, 250, 250); 
+   
+    display: flex;
+
+  
+    
+  }
+  
+  
+  .paraa{
+    color:rgb(3, 3, 3); 
+    display: flex;
+   align-items: center;
+  
+  }
+
+
 }
-
-
-
 
 
 
@@ -370,7 +410,7 @@ flex-direction: column-reverse;
   }
 .fluwidth {
  
-  width: 550px;
+  width: 100%;
   
   flex-direction: column-reverse;
  
@@ -379,7 +419,7 @@ flex-direction: column-reverse;
 
 .fluwidthhh {
  
-  width: 600px;
+  width: 100%;
   
   flex-direction: column-reverse;
   
@@ -411,12 +451,26 @@ flex-direction: column-reverse;
    
 
 
+  .para{
+    color:rgb(250, 250, 250); 
+   
+    display: flex;
+
   
-
-
-
+    
+  }
+  
+  
+  .paraa{
+    color:rgb(3, 3, 3); 
+    display: flex;
+   align-items: center;
+  
+  }
 
  
+
+
 
   .para{
     color:rgb(250, 250, 250); 
@@ -440,8 +494,7 @@ flex-direction: column-reverse;
 
 
 
-
-@media (max-width:540px){
+@media (max-width:280px){
 
   .mainnz{
     display: none;
@@ -454,7 +507,7 @@ flex-direction: column-reverse;
   }
 .fluwidth {
  
-  width: 900px;
+  width: 100%;
   
   flex-direction: column-reverse;
  
@@ -463,7 +516,7 @@ flex-direction: column-reverse;
 
 .fluwidthhh {
  
-  width: 900px;
+  width: 100%;
   
   flex-direction: column-reverse;
   
@@ -495,13 +548,6 @@ flex-direction: column-reverse;
    
 
 
-  
-
-
-
-
- 
-
   .para{
     color:rgb(250, 250, 250); 
    
@@ -523,86 +569,6 @@ flex-direction: column-reverse;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:768px){
-
-  .mainnz{
-    display: none;
-  }
-  #mainp{
-    width: 100%;
-    display: flex;
-
-    justify-content: first baseline;
-  }
-.fluwidth {
- 
-  width: 900px;
-  
-  flex-direction: column-reverse;
- 
-
-}
-
-.fluwidthhh {
- 
-  width: 900px;
-  
-  flex-direction: column-reverse;
-  
- 
-
-}
-
-#maielm{
-  width: 100%;
-  display: flex;
-}
-
-
-.main{
-    
-  width: 100%;
-   
-flex-direction: column-reverse;
-  
-  
-}
-
-#mainnn{
-  width: 100%;
-  display: none;
-  
-  
-}
-   
-
-
-  
-
-
-
-
- 
-
   .para{
     color:rgb(250, 250, 250); 
    
@@ -621,93 +587,10 @@ flex-direction: column-reverse;
   }
 
  
-}
 
 
 
 
-
-
-@media (max-width:1024px){
-
-  .mainnz{
-    display: none;
-  }
-  #mainp{
-    width: 100%;
-    display: flex;
-
-    justify-content: first baseline;
-  }
-.fluwidth {
- 
-  width: 1050px;
-  
-  flex-direction: column-reverse;
- 
-
-}
-
-.fluwidthhh {
- 
-  width: auto;
-  
-  flex-direction: column-reverse;
-  
- 
-
-}
-
-#maielm{
-  width: 100%;
-  display: flex;
-}
-
-
-.main{
-    
-  width: 100%;
-   
-flex-direction: column-reverse;
-  
-  
-}
-
-#mainnn{
-  width: 100%;
-  display: none;
-  
-  
-}
-   
-
-
-  
-
-
-
-
- 
-
-  .para{
-    color:rgb(250, 250, 250); 
-   
-    display: flex;
-
-  
-    
-  }
-  
-  
-  .paraa{
-    color:rgb(3, 3, 3); 
-    display: flex;
-   align-items: center;
-  
-  }
-
- 
-}
 
 
 
