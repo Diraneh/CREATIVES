@@ -53,6 +53,7 @@ li a {
 
 li {
   display: inline;
+  font-family: "Gotham";
 }
 
 nav {
@@ -79,7 +80,7 @@ li a:before {
   width: 0px;
   background: #d21242;
   position: absolute;
-  margin-top: 72px;
+  margin-top: 105px;
   transition: width 0.5s;
 }
 
@@ -263,13 +264,13 @@ h1 {
 
 @font-face{
   font-family: "Gotham";
-  src:url(/police/Gotham-Font/GothamBook.ttf)
+  src:url(./police/gothamlight-webfont.woff)
 }
 
 @font-face {
   font-family: 'Gothambold';
-  src: url('./ProjetHTMLCSS/police/gothambold-webfont.woff2') format('woff2'),
-       url('./ProjetHTMLCSS/police/gothambold-webfont.woff') format('woff');
+  src: url('./police/gotham-bold-webfont.woff2') format('woff2'),
+       url('./police/gotham-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -296,7 +297,7 @@ body{
   content: "B";
   font-family: "GothamBold";
   color: rgb(219, 95, 118);
-  opacity: 90%;
+  opacity: 99%!important;
   font-size: 200px;
   display: flex;
   align-items: center;
@@ -320,8 +321,8 @@ body{
 
 .love{
     margin-top: 50px;
-    font-family: "Gotham";
-    font-weight: bold;
+    font-family: "Roboto";
+    font-weight:bold;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -333,6 +334,30 @@ body{
     margin-top: 50px;
     max-width: 1200px;
 }
+
+
+  .imageuh {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+  .imageuh:hover {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+ .anima{
+  -webkit-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+ }
+
+ .anima:hover{
+  -webkit-transform: scale(1);
+	transform: scale(1);
+ }
+
 
 /*Colomn*/
 
@@ -491,3 +516,4 @@ justify-content: space-between;
 @media(min-width:1200px){
 
 }
+
