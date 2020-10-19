@@ -25,7 +25,6 @@
 
 }
 
-
 body {
   margin: 0;
   padding: 0;
@@ -53,37 +52,47 @@ body {
  
   width: 100%;
   display: flex;
- 
-  
+
 }
 
 
+.fluwidthhh{
+  width: 100%;
+  display: none;
+}
 
+
+.mainnz{
+  width: 50%;
+  display: none;
+}
+
+.mainnnp{
+  width: 50%;
+  display: none;
+}
 .main {
   width: 50%;
  
 
   display: flex;
-
+  background-color: rgb(31, 30, 30);
 }
 
+.mainnn {
+  width: 50%;
+ 
 
+  display: flex;
+  background-color: rgb(255, 253, 253);
+}
 
 .mainn {
   width: 50%;
  
 
   display: flex;
-
-}
-
-
-
-#mainnn {
-  width: 100%;
- 
-
-  display: flex;
+  flex-direction: column-reverse
 
 }
 
@@ -96,513 +105,517 @@ img.main{
   max-width: 50%;
 }
 
-img.mainnn{
-  max-width: 50%;
-}
 
 .para{
   color:rgb(248, 248, 248); 
-  margin-left:25%; 
-  margin-top: 1% ;
-  margin-right: 25%;
+  margin-left:18.5%; 
+  margin-top: 10% ;
+  margin-right: 20%;
   display: flex;
   font-family: 'gothammedium';
 
- 
-  
-  
-  
 }
+
 
 
 .paraa{
   color:rgb(0, 0, 0); 
-  margin-left:25%; 
-  margin-top: 1% ;
-  margin-right: 25%;
+  margin-left:18.5%; 
+  margin-top: 10% ;
+  margin-right: 20%;
   display: flex;
+  background-color: white;
   font-family: 'gothammedium';
+
+}
+
+@media (max-width:576px){
+
+  
+.fluwidth {
  
+  width: 100%;
+  
+  flex-direction: column-reverse;
  
+
+}
+
+.fluwidthh {
+ 
+  width: 100%;
+  
+  flex-direction: column-reverse;
   
  
+
 }
 
-
-
-#mainp{
+.fluwidthhh {
+ 
   width: 100%;
-  display: none;
+  
+  flex-direction: column-reverse;
+  
+ 
+
 }
 
-.mainnz{
-  display: none;
+
+
+.main{
+    
+  width: 100%;
+   
+flex-direction: column-reverse;
+  
+  
 }
 
-#maielm{
-  display: none;
+
+.mainn{
+    
+  width: 100%;
+   
+flex-direction: column-reverse;
+  
+  
 }
+
 .mainnn{
+  width: 100%;
+    
+ 
   display: none;
+  
+  
 }
+   
 
 
-@media (max-width:320px){
+  .para{
+    color:rgb(250, 250, 250); 
+   
+    display: flex;
+    
 
-  .mainnz{
-    display: none;
+  
+    
   }
-  #mainp{
+
+
+  .parapa{
+    color:rgb(0, 0, 0); 
+    margin-left:18.5%; 
+    margin-top: 10% ;
+    margin-right: 20%;
+    display: flex;
+    background-color: white;
+    font-family: 'gothammedium';
+    width: 100%;
+  }
+  
+  
+  
+  .paraa{
+    color:rgb(3, 3, 3); 
+    display: flex;
+  
+  
+  }
+
+
+  .mainnnp{
     width: 100%;
     display: flex;
-
-    justify-content: first baseline;
+    color: black;
   }
-.fluwidth {
- 
-  width: 100%;
-  
-  flex-direction: column-reverse;
- 
-
-}
-
-.fluwidthhh {
- 
-  width: 100%;
-  
-  flex-direction: column-reverse;
-  
- 
-
-}
-
-#maielm{
-  width: 100%;
-  display: flex;
-}
-
-
-.main{
-    
-  width: 100%;
-   
-flex-direction: column-reverse;
-  
-  
-}
-
-#mainnn{
-  width: 100%;
-  display: none;
-  
-  
-}
-   
-
-
-  .para{
-    color:rgb(250, 250, 250); 
-   
-    display: flex;
-    
-
-  
-    
-  }
-  
-  
-  .paraa{
-    color:rgb(3, 3, 3); 
-    display: flex;
-  
-  
-  }
-
- 
-}
-
-
-
-@media (max-width:360px){
-
   .mainnz{
+
+    width: 100%;
     display: none;
   }
-  #mainp{
+ 
+
+
+  img.mainn{
+    max-width: 100%;
+  }
+  
+  
+  img.main{
+    max-width: 100%;
+  }
+  
+}
+
+
+
+@media (max-width:738px){
+
+  
+  .fluwidth {
+   
     width: 100%;
-    display: flex;
-
-    justify-content: first baseline;
-  }
-.fluwidth {
- 
-  width: 100%;
-  
-  flex-direction: column-reverse;
- 
-
-}
-
-.fluwidthhh {
- 
-  width: 100%;
-  
-  flex-direction: column-reverse;
-  
- 
-
-}
-
-#maielm{
-  width: 100%;
-  display: flex;
-}
-
-
-.main{
     
-  width: 100%;
+    flex-direction: column-reverse;
    
-flex-direction: column-reverse;
   
+  }
   
-}
-
-#mainnn{
-  width: 100%;
-  display: none;
-  
-  
-}
+  .fluwidthh {
    
-
-  .para{
-    color:rgb(250, 250, 250); 
+    width: 100%;
+    
+    flex-direction: column-reverse;
+    
    
-    display: flex;
-
   
+  }
+  
+  .fluwidthhh {
+   
+    width: 100%;
+    
+    flex-direction: column-reverse;
+    
+   
+  
+  }
+  
+  
+  
+  .main{
+      
+    width: 100%;
+     
+  flex-direction: column-reverse;
+    
     
   }
   
   
-  .paraa{
-    color:rgb(3, 3, 3); 
-    display: flex;
-   align-items: center;
-  
+  .mainn{
+      
+    width: 100%;
+     
+  flex-direction: column-reverse;
+    
+    
   }
-
- 
-}
-
-
-
-
-@media (max-width:375px){
-
-  .mainnz{
+  
+  .mainnn{
+    width: 100%;
+      
+   
     display: none;
-  }
-  #mainp{
-    width: 100%;
-    display: flex;
-
-    justify-content: first baseline;
-  }
-.fluwidth {
- 
-  width: 100%;
-  
-  flex-direction: column-reverse;
- 
-
-}
-
-.fluwidthhh {
- 
-  width: 100%;
-  
-  flex-direction: column-reverse;
-  
- 
-
-}
-
-#maielm{
-  width: 100%;
-  display: flex;
-}
-
-
-.main{
     
-  width: 100%;
-   
-flex-direction: column-reverse;
-  
-  
-}
-
-#mainnn{
-  width: 100%;
-  display: none;
-  
-  
-}
-   
-
-
-  .para{
-    color:rgb(250, 250, 250); 
-   
-    display: flex;
-
-  
     
   }
+     
   
   
-  .paraa{
-    color:rgb(3, 3, 3); 
-    display: flex;
-   align-items: center;
+    .para{
+      color:rgb(250, 250, 250); 
+     
+      display: flex;
+      
   
-  }
-
- 
-
-
-
-  .para{
-    color:rgb(250, 250, 250); 
+    
+      
+    }
+  
+  
+    .parapa{
+      color:rgb(0, 0, 0); 
+      margin-left:18.5%; 
+      margin-top: 10% ;
+      margin-right: 20%;
+      display: flex;
+      background-color: white;
+      font-family: 'gothammedium';
+      width: 100%;
+    }
+    
+    
+    
+    .paraa{
+      color:rgb(3, 3, 3); 
+      display: flex;
+    
+    
+    }
+  
+  
+    .mainnnp{
+      width: 100%;
+      display: flex;
+      color: black;
+    }
+    .mainnz{
+  
+      width: 100%;
+      display: none;
+    }
    
-    display: flex;
-
   
+  
+    img.mainn{
+      max-width: 100%;
+    }
+    
+    
+    img.main{
+      max-width: 100%;
+    }
     
   }
   
   
-  .paraa{
-    color:rgb(3, 3, 3); 
-    display: flex;
-   align-items: center;
   
-  }
 
+  @media (max-width:920px){
 
-}
-
-
-
-@media (max-width:414px){
-
-  .mainnz{
-    display: none;
-  }
-  #mainp{
-    width: 100%;
-    display: flex;
-
-    justify-content: first baseline;
-  }
-.fluwidth {
- 
-  width: 100%;
   
-  flex-direction: column-reverse;
- 
-
-}
-
-.fluwidthhh {
- 
-  width: 100%;
-  
-  flex-direction: column-reverse;
-  
- 
-
-}
-
-#maielm{
-  width: 100%;
-  display: flex;
-}
-
-
-.main{
+    .fluwidth {
+     
+      width: 100%;
+      
+      flex-direction: column-reverse;
+     
     
-  width: 100%;
-   
-flex-direction: column-reverse;
-  
-  
-}
-
-#mainnn{
-  width: 100%;
-  display: none;
-  
-  
-}
-   
-
-
-  .para{
-    color:rgb(250, 250, 250); 
-   
-    display: flex;
-
-  
+    }
     
-  }
-  
-  
-  .paraa{
-    color:rgb(3, 3, 3); 
-    display: flex;
-   align-items: center;
-  
-  }
-
- 
-
-
-
-  .para{
-    color:rgb(250, 250, 250); 
-   
-    display: flex;
-
-  
+    .fluwidthh {
+     
+      width: 100%;
+      
+      flex-direction: column-reverse;
+      
+     
     
-  }
-  
-  
-  .paraa{
-    color:rgb(3, 3, 3); 
-    display: flex;
-   align-items: center;
-  
-  }
-
- 
-}
-
-
-
-@media (max-width:280px){
-
-  .mainnz{
-    display: none;
-  }
-  #mainp{
-    width: 100%;
-    display: flex;
-
-    justify-content: first baseline;
-  }
-.fluwidth {
- 
-  width: 100%;
-  
-  flex-direction: column-reverse;
- 
-
-}
-
-.fluwidthhh {
- 
-  width: 100%;
-  
-  flex-direction: column-reverse;
-  
- 
-
-}
-
-#maielm{
-  width: 100%;
-  display: flex;
-}
-
-
-.main{
+    }
     
-  width: 100%;
-   
-flex-direction: column-reverse;
-  
-  
-}
-
-#mainnn{
-  width: 100%;
-  display: none;
-  
-  
-}
-   
-
-
-  .para{
-    color:rgb(250, 250, 250); 
-   
-    display: flex;
-
-  
+    .fluwidthhh {
+     
+      width: 100%;
+      
+      flex-direction: column-reverse;
+      
+     
     
-  }
-  
-  
-  .paraa{
-    color:rgb(3, 3, 3); 
-    display: flex;
-   align-items: center;
-  
-  }
-
- 
-}
-
-
-  .para{
-    color:rgb(250, 250, 250); 
-   
-    display: flex;
-
-  
+    }
     
-  }
+    
+    
+    .main{
+        
+      width: 100%;
+       
+    flex-direction: column-reverse;
+      
+      
+    }
+    
+    
+    .mainn{
+        
+      width: 100%;
+       
+    flex-direction: column-reverse;
+      
+      
+    }
+    
+    .mainnn{
+      width: 100%;
+        
+     
+      display: none;
+      
+      
+    }
+       
+    
+    
+      .para{
+        color:rgb(250, 250, 250); 
+       
+        display: flex;
+        
+    
+      
+        
+      }
+    
+    
+      .parapa{
+        color:rgb(0, 0, 0); 
+        margin-left:18.5%; 
+        margin-top: 10% ;
+        margin-right: 20%;
+        display: flex;
+        background-color: white;
+        font-family: 'gothammedium';
+        width: 100%;
+      }
+      
+      
+      
+      .paraa{
+        color:rgb(3, 3, 3); 
+        display: flex;
+      
+      
+      }
+    
+    
+      .mainnnp{
+        width: 100%;
+        display: flex;
+        color: black;
+      }
+      .mainnz{
+    
+        width: 100%;
+        display: none;
+      }
+     
+    
+    
+      img.mainn{
+        max-width: 100%;
+      }
+      
+      
+      img.main{
+        max-width: 100%;
+      }
+      
+    }
+    
+
+    @media (max-width:1024px){
+
   
-  
-  .paraa{
-    color:rgb(3, 3, 3); 
-    display: flex;
-   align-items: center;
-  
-  }
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      .fluwidth {
+       
+        width: 100%;
+        
+        flex-direction: column-reverse;
+       
+      
+      }
+      
+      .fluwidthh {
+       
+        width: 100%;
+        
+        flex-direction: column-reverse;
+        
+       
+      
+      }
+      
+      .fluwidthhh {
+       
+        width: 100%;
+        
+        flex-direction: column-reverse;
+        
+       
+      
+      }
+      
+      
+      
+      .main{
+          
+        width: 100%;
+         
+      flex-direction: column-reverse;
+        
+        
+      }
+      
+      
+      .mainn{
+          
+        width: 100%;
+         
+      flex-direction: column-reverse;
+        
+        
+      }
+      
+      .mainnn{
+        width: 100%;
+          
+       
+        display: none;
+        
+        
+      }
+         
+      
+      
+        .para{
+          color:rgb(250, 250, 250); 
+         
+          display: flex;
+          
+      
+        
+          
+        }
+      
+      
+        .parapa{
+          color:rgb(0, 0, 0); 
+          margin-left:18.5%; 
+          margin-top: 10% ;
+          margin-right: 20%;
+          display: flex;
+          background-color: white;
+          font-family: 'gothammedium';
+          width: 100%;
+        }
+        
+        
+        
+        .paraa{
+          color:rgb(3, 3, 3); 
+          display: flex;
+        
+        
+        }
+      
+      
+        .mainnnp{
+          width: 100%;
+          display: flex;
+          color: black;
+        }
+        .mainnz{
+      
+          width: 100%;
+          display: none;
+        }
+       
+      
+      
+        img.mainn{
+          max-width: 100%;
+        }
+        
+        
+        img.main{
+          max-width: 100%;
+        }
+        
+      }
+      
+      
+      
+    
+    
