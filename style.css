@@ -43,7 +43,7 @@ header {
 
 }
 
-.navbar-dark .navbar-toggler-icon {background-image: url(images/télécharger.png); }
+
 ul{
 
   display: flex
@@ -66,10 +66,6 @@ ul{
 }
 #menu-btn img {
   width: 50px;
-}
-span{
-  
-  display:block;
 }
 
 h1{
@@ -130,7 +126,7 @@ li a:hover:before {
 
 #menu {
 
-  /* display: none; */
+display: fle;
 }
 
 span {
